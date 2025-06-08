@@ -46,8 +46,7 @@ O Banco de Dados SQL do Azure vem com um firewall configurado por padrão para b
 
 Você pode permitir o acesso de endereços IP específicos nos quais você confia. Fazendo isso, você pode usar o Visual Studio, o SQL Server Management Studio ou outras ferramentas para gerenciar seu Banco de Dados SQL do Azure.
 
-
-
+Para criar um Banco de Dados SQL, após acessar a plataforma da  Microsoft Azure na página inicial, basta posicionar o cursor do mouse sobre o ícone do Banco ede Bados para que seja exibida uma janela com um tutorial explicativo, para que nuca realizou uma criação de banco de daods nesta plataforma, usar o tutorial é uma maeira muito pratica e criar, além de adiquerir conhecimento, pois ele denostra o passo-a-passo.Por isso para criar este basco de bados foi utilizado o os 
 
 <div align="center">
   <p><strong>Captura de tela do Azure</strong></p>
@@ -57,14 +56,92 @@ Você pode permitir o acesso de endereços IP específicos nos quais você confi
        height="450">
 </div>
 
+
+
+
+
+
+
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/fbe67afb-8ab8-4138-afd7-a46613dcbf80" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
+
+
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/52ad87bb-1664-4d33-adf9-7cf3337831b2" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
 Criar Servidor do Banco de Dados SQL. para cria um novo quando aparecer servido, abaixo tera novo servido clicando nele redirecionado a oura janela, na qual vc dara o neme e comora a regiao que pretende usar confor a inagem a baixo, escola a forma de autenticao e a pagina será redinecionada para a jaanela anterior para conculir o processo .
 
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/62caf2f5-f9b9-4a73-a141-be43060031d6" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
 
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/f148e95d-4844-4be2-8c8d-bd36d0244ab3" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
 
-Imagem 4 
+Imagem 
 Enquanto a implantação está em andamento, os detalhes da implantação exibem os recursos que são criados. Quando a implantação for concluída, opcionalmente, selecione Fixar no painel e depois clique em Acessar o recurso. O painel Visão geral do servidor do banco de dados SQL é exibido. Agora, seu banco de dados SQL do Azure está em funcionamento.
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/4bc6d920-b807-47e3-9187-01f1f1694eb9" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
 
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/674f772c-7418-4187-a5ab-03d88590eecd" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
+
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/d3204f19-9120-4dae-a172-aa1504d0ec91" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
 
 ja criado 
 imagem 2
 selecionar A opção Definir firewall do servidor é exibida na página Visão geral do banco de dados. No SQL Server lógico do Azure, selecione Rede em Segurança no menu de serviço.
+
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/c01df7b3-b4b5-4e5d-9237-3dcff245fc84" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
+
+
+<div align="center">
+  <p><strong>Captura de tela do Azure</strong></p>
+  <img src="https://github.com/user-attachments/assets/4fcae9c9-2bf2-4a80-859e-b265a43d7a7a" 
+       alt="Captura de tela do Azure" 
+       width="600" 
+       height="450">
+</div>
+
+
+
