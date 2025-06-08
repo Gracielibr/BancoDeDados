@@ -17,34 +17,24 @@ Em um mundo cada vez mais digital, os bancos de dados são a base que sustenta p
 
 
 ## Crindo Danco de Dados SQL na Microsoft Azure
+
+O Banco de Dados SQL do Azure se diferencia significativamente das soluções tradicionais de gerenciamento de dados por sua abordagem como serviço gerenciado na nuvem. Enquanto soluções convencionais exigem amplo conhecimento técnico para configuração e manutenção de infraestrutura, a versão Azure simplifica radicalmente esse processo. A principal diferença está na natureza PaaS (Plataforma como Serviço), que transfere para a Microsoft a responsabilidade pelo gerenciamento do hardware, atualizações de sistema e manutenção rotineira.
+
+Diferentemente de implementações tradicionais onde é necessário planejar capacidade antecipadamente e lidar com upgrades complexos, o Banco de Dados SQL do Azure oferece escalabilidade instantânea para atender a demandas flutuantes. O modelo de custo também apresenta uma diferença marcante - em vez de investimentos iniciais em hardware, os usuários pagam apenas pelo que consomem, com opções que variam desde planos básicos até configurações de alto desempenho.
+
+A segurança integrada representa outra distinção importante, com proteções como firewall nativo e controle granular de acesso já incorporados ao serviço, eliminando a necessidade de configurações manuais complexas. Essa abordagem permite que equipes de desenvolvimento dediquem mais tempo à criação de valor através de aplicativos, enquanto a plataforma cuida da camada de infraestrutura subjacente, adaptando-se automaticamente às necessidades em evolução de cada projeto.
+
+
+
+
+
+
+
+
+
+
 <img align="right" height="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png">
-Se queremos gerenciar nossos dados usando a nuvem, podemos apenas usar máquinas virtuais do Azure para hospedar nossas próprias instâncias do Microsoft SQL Server. Às vezes essa é a solução certa, mas o Azure oferece outra maneira que costuma ser muito mais fácil e econômica. Os bancos de dados SQL do Azure são uma oferta de PaaS (plataforma como serviço). Isso significa gerenciar muito menos infraestruturas e manutenções.
 
-Conveniência
-
-Configurar o SQL Server em uma máquina virtual (VM) ou em hardware físico requer que você conheça os requisitos de hardware e software. Você precisa entender as melhores práticas de segurança mais recentes e gerenciar o sistema operacional e os patches do SQL Server de forma rotineira. Você também precisa gerenciar questões backup e retenção de dados por conta própria.
-
-Com o Banco de Dados SQL do Azure, podemos gerenciar o hardware, as atualizações de software e os patches do sistema operacional para você. Tudo o que você especifica é o nome do banco de dados e algumas opções, e você tem um banco de dados SQL em execução em minutos.
-
-Você pode ativar e destruir instâncias de Banco de Dados SQL do Azure como quiser. O Banco de Dados SQL do Azure é ativado rapidamente e é fácil de configurar. Você pode concentrar-se menos em configurar o software e mais em criar um ótimo aplicativo.
-
-Custo
-
-Uma vez que nós realizamos o gerenciamento, você não precisa comprar, alimentar nem realizar a manutenção de nenhum sistema.
-
-O Banco de Dados SQL do Azure tem várias opções de preços. Essas opções de preço permitem equilibrar o desempenho e o custo, com um custo previsível. Você pode começar com apenas alguns dólares por mês.
-
-Escala
-
-Você descobre que a quantidade de dados de logística de transporte que você precisa armazenar dobra a cada ano. Quando você opera no local, quanta capacidade excedente você deve planejar?
-
-Com o Banco de Dados SQL do Azure, você poderá ajustar o desempenho e o tamanho do banco de dados imediatamente quando suas necessidades mudarem.
-
-Segurança
-
-O Banco de Dados SQL do Azure vem com um firewall configurado por padrão para bloquear conexões da Internet pública. Você controla o acesso aos seus dados.
-
-Você pode permitir o acesso de endereços IP específicos nos quais você confia. Fazendo isso, você pode usar o Visual Studio, o SQL Server Management Studio ou outras ferramentas para gerenciar seu Banco de Dados SQL do Azure.
 
 Para criar um Banco de Dados SQL, após acessar a plataforma da  Microsoft Azure na página inicial, basta posicionar o cursor do mouse sobre o ícone do Banco ede Bados para que seja exibida uma janela com um tutorial explicativo, para que nuca realizou uma criação de banco de daods nesta plataforma, usar o tutorial é uma maeira muito pratica e criar, além de adiquerir conhecimento, pois ele denostra o passo-a-passo.Por isso para criar este basco de bados foi utilizado o os 
 
