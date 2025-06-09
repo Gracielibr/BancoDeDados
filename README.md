@@ -15,9 +15,6 @@ Já os bancos de dados não relacionais, ou NoSQL, são mais flexíveis e não u
 
 Em um mundo cada vez mais digital, os bancos de dados são a base que sustenta praticamente todos os sistemas que que são usados. Eles garantem que as informações sejam armazenadas com segurança, organizadas de forma inteligente e recuperadas em um piscar de olhos quando presisar delas. 
 
-
-## Crindo Danco de Dados SQL na Microsoft Azure
-
 O Banco de Dados SQL do Azure se diferencia significativamente das soluções tradicionais de gerenciamento de dados por sua abordagem como serviço gerenciado na nuvem. Enquanto soluções convencionais exigem amplo conhecimento técnico para configuração e manutenção de infraestrutura, a versão Azure simplifica radicalmente esse processo. A principal diferença está na natureza PaaS (Plataforma como Serviço), que transfere para a Microsoft a responsabilidade pelo gerenciamento do hardware, atualizações de sistema e manutenção rotineira.
 
 Diferentemente de implementações tradicionais onde é necessário planejar capacidade antecipadamente e lidar com upgrades complexos, o Banco de Dados SQL do Azure oferece escalabilidade instantânea para atender a demandas flutuantes. O modelo de custo também apresenta uma diferença marcante - em vez de investimentos iniciais em hardware, os usuários pagam apenas pelo que consomem, com opções que variam desde planos básicos até configurações de alto desempenho.
@@ -25,113 +22,16 @@ Diferentemente de implementações tradicionais onde é necessário planejar cap
 A segurança integrada representa outra distinção importante, com proteções como firewall nativo e controle granular de acesso já incorporados ao serviço, eliminando a necessidade de configurações manuais complexas. Essa abordagem permite que equipes de desenvolvimento dediquem mais tempo à criação de valor através de aplicativos, enquanto a plataforma cuida da camada de infraestrutura subjacente, adaptando-se automaticamente às necessidades em evolução de cada projeto.
 
 
-
-
-
-
-
-
-
-
+## Crindo Danco de Dados SQL na Microsoft Azure
 <img align="right" height="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png">
+Neste projeto, explorei na prática o processo de configuração e utilização do Azure SQL Database, o serviço de banco de dados relacional da Microsoft na nuvem. A experiência permitiu compreender desde a criação inicial da instância até a integração com uma aplicação real.
 
+O primeiro passo foi a configuração do ambiente no portal Azure, onde criei um novo servidor SQL (meuservidor-sql.database.windows.net) com um banco de dados chamado Teste, utilizando o modelo sem servidor Gen5. Durante essa etapa, aprendi sobre aspectos importantes como a seleção da região (Brazil South), configuração do tier de desempenho e definição das regras de firewall para permitir o acesso.
 
-Para criar um Banco de Dados SQL, após acessar a plataforma da  Microsoft Azure na página inicial, basta posicionar o cursor do mouse sobre o ícone do Banco ede Bados para que seja exibida uma janela com um tutorial explicativo, para que nuca realizou uma criação de banco de daods nesta plataforma, usar o tutorial é uma maeira muito pratica e criar, além de adiquerir conhecimento, pois ele denostra o passo-a-passo.Por isso para criar este basco de bados foi utilizado o os 
+Para conectar uma aplicação ao banco de dados, desenvolvi um projeto Spring Boot utilizando Java no IntelliJ IDEA. A configuração da conexão foi feita através do arquivo application.properties, onde especifiquei a URL de conexão JDBC, credenciais de acesso e parâmetros adicionais de segurança. Implementei uma entidade Produto com Spring Data JPA, que foi automaticamente mapeada para uma tabela no banco de dados graças ao recurso de auto-configuração do Hibernate.
 
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/8a5079d0-9296-4e24-8dd6-0ae95dc61c54" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
+Os testes de conexão e operações CRUD foram realizados tanto através da aplicação quanto diretamente no Editor de Consultas do Azure Portal, o que permitiu validar o funcionamento correto de todas as camadas. Uma descoberta valiosa foi a importância de configurar adequadamente as regras de firewall para permitir o acesso a partir do IP de desenvolvimento.
 
-
-
-
-
-
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/fbe67afb-8ab8-4138-afd7-a46613dcbf80" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/52ad87bb-1664-4d33-adf9-7cf3337831b2" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-Criar Servidor do Banco de Dados SQL. para cria um novo quando aparecer servido, abaixo tera novo servido clicando nele redirecionado a oura janela, na qual vc dara o neme e comora a regiao que pretende usar confor a inagem a baixo, escola a forma de autenticao e a pagina será redinecionada para a jaanela anterior para conculir o processo .
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/62caf2f5-f9b9-4a73-a141-be43060031d6" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/f148e95d-4844-4be2-8c8d-bd36d0244ab3" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-Imagem 
-Enquanto a implantação está em andamento, os detalhes da implantação exibem os recursos que são criados. Quando a implantação for concluída, opcionalmente, selecione Fixar no painel e depois clique em Acessar o recurso. O painel Visão geral do servidor do banco de dados SQL é exibido. Agora, seu banco de dados SQL do Azure está em funcionamento.
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/4bc6d920-b807-47e3-9187-01f1f1694eb9" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/674f772c-7418-4187-a5ab-03d88590eecd" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/d3204f19-9120-4dae-a172-aa1504d0ec91" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-ja criado 
-imagem 2
-selecionar A opção Definir firewall do servidor é exibida na página Visão geral do banco de dados. No SQL Server lógico do Azure, selecione Rede em Segurança no menu de serviço.
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/c01df7b3-b4b5-4e5d-9237-3dcff245fc84" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
-
-<div align="center">
-  <p><strong>Captura de tela do Azure</strong></p>
-  <img src="https://github.com/user-attachments/assets/4fcae9c9-2bf2-4a80-859e-b265a43d7a7a" 
-       alt="Captura de tela do Azure" 
-       width="600" 
-       height="450">
-</div>
-
+Esta experiência prática proporcionou uma compreensão sólida dos benefícios do Azure SQL Database, incluindo sua escalabilidade, disponibilidade e integração com outras ferramentas Microsoft. Como próximos passos, pretendo explorar recursos avançados como replicação geográfica, tuning de performance e opções de backup automatizado.
 
 
